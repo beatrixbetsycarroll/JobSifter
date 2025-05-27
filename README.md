@@ -67,5 +67,6 @@ jobsifter/
 ## 🧪 Future Ideas
 
 - Add real language detection on job descriptions
+- Add LLM API integration for further customization (for many possible uses)
 - Plug in a real DB or job publishing API
 - Add CLI flags for verbosity or output file control
