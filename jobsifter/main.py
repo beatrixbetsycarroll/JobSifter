@@ -60,7 +60,7 @@ def run(feed_path: str) -> tuple[list[JobPosting], list[RejectedJob]]:
                 approved.append(job)
             else:
                 rejected.append(RejectedJob(raw_data=raw_job, reasons=reasons))
-        except Exception as e:
+        except ValueError as e:
             rejected.append(RejectedJob(raw_data=raw_job, reasons=[f"Parsing error: {str(e)}"]))
 
     return approved, rejected
