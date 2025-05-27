@@ -34,6 +34,7 @@ If you don't specify a file, it will default to running it on data/feed1.json.
 
 ## 📁 Project Structure
 
+```bash
 jobsifter/
 ├── main.py               # Entry point
 ├── models/               # Typed data models (JobPosting, Salary, etc.)
@@ -41,7 +42,7 @@ jobsifter/
 ├── approval/evaluator.py # Rule-based job approval
 ├── storage/writer.py     # File output for approved + rejected jobs
 ├── constants.py          # Shared constants (e.g., salary thresholds)
-
+```
 ---
 
 ## 🧠 Assumptions / Design Notes
