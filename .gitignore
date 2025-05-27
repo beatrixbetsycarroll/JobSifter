@@ -1,38 +1,13 @@
-# Byte-compiled / optimized / DLL files
+# Bytecode + virtual envs
 __pycache__/
 *.py[cod]
-*.so
-
-# Virtual environments
-.env
-.venv
+.venv/
 env/
-venv/
 
-# IDEs and editor junk
+# Editor files
 .vscode/
 .idea/
 .DS_Store
 
-# Test and coverage reports
-*.log
-coverage/
-htmlcov/
-*.cover
-*.py,cover
-.cache
-nosetests.xml
-coverage.xml
-*.coveragerc
-
-# Jupyter Notebooks
-.ipynb_checkpoints
-
-# PyInstaller
-dist/
-build/
-*.spec
-
-# Local config
-.env.local
-.settings/
+# Output files
+approved_jobs.json
